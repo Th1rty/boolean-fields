@@ -25,6 +25,7 @@ export default {
   justify-content: center;
   transition: 0.3s;
   cursor: pointer;
+  z-index: 1;
 }
 .selected{
   background-color: #3e3b4b;
