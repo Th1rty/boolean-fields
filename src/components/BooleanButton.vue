@@ -24,6 +24,7 @@ export default {
   align-items: center;
   justify-content: center;
   transition: 0.3s;
+  cursor: pointer;
 }
 .selected{
   background-color: #3e3b4b;
