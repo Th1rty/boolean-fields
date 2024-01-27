@@ -1,6 +1,10 @@
 <template>
   <div class="view">
-    <BooleanFields @bluray="(bool) => bluray=bool" @temporary="(bool) => temporary=bool" @filler="(bool)=>filler=bool"/>
+    <BooleanFields
+      @bluray="(bool) => bluray=bool"
+      @temporary="(bool) => temporary=bool"
+      @filler="(bool)=>filler=bool"
+    />
   </div>
   <h2>- App.vue -</h2>
   <p>
